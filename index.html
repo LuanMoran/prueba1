@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Formulario en HTML</h1>
-    <form> <!-- #novalidate  permite enviar los campos en blanco-->
+    <form action="mi_servidor" target="_blank" > <!-- #novalidate  permite enviar los campos en blanco-->
         <fieldset> 
             <legend>Datos de Persona</legend>       
             <label for="nombre">Nombre:</label><br> 
@@ -46,6 +46,7 @@
             </textarea><br>
 
             <input type="submit" value="Enviar"/>
+            <input type="reset" value="Resetiar">
         </fieldset>
     </form>
 </body>
