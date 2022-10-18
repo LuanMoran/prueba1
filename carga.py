@@ -1,3 +1,4 @@
+"""app registor de productos"""
 class Diccionario:
     def __init__(self) -> None:
         self.dic={}
